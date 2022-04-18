@@ -1,0 +1,1141 @@
+{
+	"info": {
+		"_postman_id": "c64c9b1c-f948-441b-960f-d49f743d9e3e",
+		"name": "Semillero",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Vehiculo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"placa\": \"ZRF567\",\r\n    \"modelo\": \"2011\",\r\n    \"asientos\": 4,\r\n    \"fechaVencimientoSeguro\": \"2011-12-01\",\r\n    \"fechaVencimientoTecnomecanica\": \"2014-01-01\",\r\n    \"idLinea\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://semillero-1.herokuapp.com/vehiculo",
+					"protocol": "https",
+					"host": [
+						"semillero-1",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"vehiculo"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Vehiculo",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"placa\": \"ZRF567\",\r\n    \"modelo\": \"2011\",\r\n    \"asientos\": 4,\r\n    \"fechaVencimientoSeguro\": \"2011-12-01\",\r\n    \"fechaVencimientoTecnomecanica\": \"2014-01-01\",\r\n    \"idLinea\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://semillero-1.herokuapp.com/vehiculo",
+							"protocol": "https",
+							"host": [
+								"semillero-1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"vehiculo"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "172"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"ac-Z7hqnOmfW3mw6yKUQfTNJwsQFGI\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 18 Apr 2022 03:06:33 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"placa\": \"ZRF567\",\n        \"modelo\": \"2011\",\n        \"asientos\": 4,\n        \"fechaVencimientoSeguro\": \"2011-12-01T00:00:00.000Z\",\n        \"fechaVencimientoTecnomecanica\": \"2014-01-01T00:00:00.000Z\",\n        \"idLinea\": 1\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Vehiculo",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"placa\": \"ZRF567\",\r\n    \"modelo\": \"2017\",\r\n    \"asientos\": 4,\r\n    \"fechaVencimientoSeguro\": \"2011-12-01\",\r\n    \"fechaVencimientoTecnomecanica\": \"2014-01-01\",\r\n    \"idLinea\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://semillero-1.herokuapp.com/vehiculo/update/ZRF567",
+					"protocol": "https",
+					"host": [
+						"semillero-1",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"vehiculo",
+						"update",
+						"ZRF567"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Vehiculo",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"placa\": \"ZRF567\",\r\n    \"modelo\": \"2017\",\r\n    \"asientos\": 4,\r\n    \"fechaVencimientoSeguro\": \"2011-12-01\",\r\n    \"fechaVencimientoTecnomecanica\": \"2014-01-01\",\r\n    \"idLinea\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://semillero-1.herokuapp.com/vehiculo/update/ZRF567",
+							"protocol": "https",
+							"host": [
+								"semillero-1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"vehiculo",
+								"update",
+								"ZRF567"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "172"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"ac-xOjuD5nPXm0q4JhRrRmwZ9UkwNM\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 18 Apr 2022 03:10:58 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"placa\": \"ZRF567\",\n        \"modelo\": \"2017\",\n        \"asientos\": 4,\n        \"fechaVencimientoSeguro\": \"2011-12-01T00:00:00.000Z\",\n        \"fechaVencimientoTecnomecanica\": \"2014-01-01T00:00:00.000Z\",\n        \"idLinea\": 1\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Vehiculo",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://semillero-1.herokuapp.com/vehiculo/eliminar/ZRF567",
+					"protocol": "https",
+					"host": [
+						"semillero-1",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"vehiculo",
+						"eliminar",
+						"ZRF567"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Vehiculo",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://semillero-1.herokuapp.com/vehiculo/eliminar/ZRF567",
+							"protocol": "https",
+							"host": [
+								"semillero-1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"vehiculo",
+								"eliminar",
+								"ZRF567"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "41"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"29-TB+p2QXFEESGb54Ss3tUkAUz4Rc\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 18 Apr 2022 03:12:18 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Se ha eliminado el Registro\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Vehiculo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://semillero-1.herokuapp.com/vehiculo",
+					"protocol": "https",
+					"host": [
+						"semillero-1",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"vehiculo"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Vehiculo",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://semillero-1.herokuapp.com/vehiculo",
+							"protocol": "https",
+							"host": [
+								"semillero-1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"vehiculo"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "683"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"2ab-ry8NuN6pATXFUK4LdazpSgCA6xs\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 18 Apr 2022 03:13:22 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"placa\": \"99HYT6\",\n        \"modelo\": \"2011\",\n        \"asientos\": 4,\n        \"fechaVencimientoSeguro\": \"2011-02-10T00:00:00.000Z\",\n        \"fechaVencimientoTecnomecanica\": \"2016-04-10T00:00:00.000Z\",\n        \"idLinea\": 2\n    },\n    {\n        \"placa\": \"CZR263\",\n        \"modelo\": \"2011\",\n        \"asientos\": 4,\n        \"fechaVencimientoSeguro\": \"2011-12-01T00:00:00.000Z\",\n        \"fechaVencimientoTecnomecanica\": \"2014-01-01T00:00:00.000Z\",\n        \"idLinea\": 1\n    },\n    {\n        \"placa\": \"GT564\",\n        \"modelo\": \"2013\",\n        \"asientos\": 4,\n        \"fechaVencimientoSeguro\": \"2013-10-12T00:00:00.000Z\",\n        \"fechaVencimientoTecnomecanica\": \"2018-12-12T00:00:00.000Z\",\n        \"idLinea\": 2\n    },\n    {\n        \"placa\": \"JGJH1\",\n        \"modelo\": \"2018\",\n        \"asientos\": 8,\n        \"fechaVencimientoSeguro\": \"2022-04-06T00:00:00.000Z\",\n        \"fechaVencimientoTecnomecanica\": \"2022-04-07T00:00:00.000Z\",\n        \"idLinea\": 1\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Marca",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":5,\r\n    \"descripcion\":\"Ferrari\",\r\n    \"activo\":\"S\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://semillero-1.herokuapp.com/marca",
+					"protocol": "https",
+					"host": [
+						"semillero-1",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"marca"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Marca",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":5,\r\n    \"descripcion\":\"Ferrari\",\r\n    \"activo\":\"S\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://semillero-1.herokuapp.com/marca",
+							"protocol": "https",
+							"host": [
+								"semillero-1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"marca"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "47"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"2f-KEfT7k9EmlEUzLLusoR1421dF9g\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 18 Apr 2022 03:16:16 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 5,\n        \"descripcion\": \"Ferrari\",\n        \"activo\": \"S\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "linea",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":3,\r\n    \"idMarca\":1,\r\n    \"descripcion\":\"Picanto\",\r\n    \"activo\":\"S\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://semillero-1.herokuapp.com/linea/",
+					"protocol": "https",
+					"host": [
+						"semillero-1",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"linea",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "linea",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":3,\r\n    \"idMarca\":1,\r\n    \"descripcion\":\"Picanto\",\r\n    \"activo\":\"S\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://semillero-1.herokuapp.com/linea/",
+							"protocol": "https",
+							"host": [
+								"semillero-1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"linea",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "59"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"3b-SrsL6eB1qz4Os7p6t7Gvk2vKFrM\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 18 Apr 2022 03:29:49 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 3,\n        \"idMarca\": 1,\n        \"descripcion\": \"Picanto\",\n        \"activo\": \"S\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "modelo maximo almacenado",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://semillero-1.herokuapp.com/consulta/modelo",
+					"protocol": "https",
+					"host": [
+						"semillero-1",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"consulta",
+						"modelo"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "modelo maximo almacenado",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://semillero-1.herokuapp.com/consulta/modelo",
+							"protocol": "https",
+							"host": [
+								"semillero-1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"consulta",
+								"modelo"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "19"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"13-IN1lCKkqeYt5eN2/xjFH09GAtpA\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 18 Apr 2022 03:44:44 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"maximo\": \"2018\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "rango de fechas",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"minimo\":\"2010-01-01\",\r\n    \"maximo\":\"2020-12-31\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://semillero-1.herokuapp.com/consulta/rango",
+					"protocol": "https",
+					"host": [
+						"semillero-1",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"consulta",
+						"rango"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "rango de fechas",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"minimo\":\"2010-01-01\",\r\n    \"maximo\":\"2020-12-31\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://semillero-1.herokuapp.com/consulta/rango",
+							"protocol": "https",
+							"host": [
+								"semillero-1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"consulta",
+								"rango"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "513"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"201-GM8BJnrKhIGhQ/wCg+O4rDw/80A\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 18 Apr 2022 03:47:18 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"placa\": \"99HYT6\",\n        \"modelo\": \"2011\",\n        \"asientos\": 4,\n        \"fechaVencimientoSeguro\": \"2011-02-10T00:00:00.000Z\",\n        \"fechaVencimientoTecnomecanica\": \"2016-04-10T00:00:00.000Z\",\n        \"idLinea\": 2\n    },\n    {\n        \"placa\": \"CZR263\",\n        \"modelo\": \"2011\",\n        \"asientos\": 4,\n        \"fechaVencimientoSeguro\": \"2011-12-01T00:00:00.000Z\",\n        \"fechaVencimientoTecnomecanica\": \"2014-01-01T00:00:00.000Z\",\n        \"idLinea\": 1\n    },\n    {\n        \"placa\": \"GT564\",\n        \"modelo\": \"2013\",\n        \"asientos\": 4,\n        \"fechaVencimientoSeguro\": \"2013-10-12T00:00:00.000Z\",\n        \"fechaVencimientoTecnomecanica\": \"2018-12-12T00:00:00.000Z\",\n        \"idLinea\": 2\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "rango de modelos",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"minimo\":\"2010\",\r\n    \"maximo\":\"2020\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://semillero-1.herokuapp.com/consulta/campo",
+					"protocol": "https",
+					"host": [
+						"semillero-1",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"consulta",
+						"campo"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "rango de modelos",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"minimo\":\"2010\",\r\n    \"maximo\":\"2020\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://semillero-1.herokuapp.com/consulta/campo",
+							"protocol": "https",
+							"host": [
+								"semillero-1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"consulta",
+								"campo"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "683"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"2ab-ry8NuN6pATXFUK4LdazpSgCA6xs\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 18 Apr 2022 03:49:19 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"placa\": \"99HYT6\",\n        \"modelo\": \"2011\",\n        \"asientos\": 4,\n        \"fechaVencimientoSeguro\": \"2011-02-10T00:00:00.000Z\",\n        \"fechaVencimientoTecnomecanica\": \"2016-04-10T00:00:00.000Z\",\n        \"idLinea\": 2\n    },\n    {\n        \"placa\": \"CZR263\",\n        \"modelo\": \"2011\",\n        \"asientos\": 4,\n        \"fechaVencimientoSeguro\": \"2011-12-01T00:00:00.000Z\",\n        \"fechaVencimientoTecnomecanica\": \"2014-01-01T00:00:00.000Z\",\n        \"idLinea\": 1\n    },\n    {\n        \"placa\": \"GT564\",\n        \"modelo\": \"2013\",\n        \"asientos\": 4,\n        \"fechaVencimientoSeguro\": \"2013-10-12T00:00:00.000Z\",\n        \"fechaVencimientoTecnomecanica\": \"2018-12-12T00:00:00.000Z\",\n        \"idLinea\": 2\n    },\n    {\n        \"placa\": \"JGJH1\",\n        \"modelo\": \"2018\",\n        \"asientos\": 8,\n        \"fechaVencimientoSeguro\": \"2022-04-06T00:00:00.000Z\",\n        \"fechaVencimientoTecnomecanica\": \"2022-04-07T00:00:00.000Z\",\n        \"idLinea\": 1\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "sumar todos los modelos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://semillero-1.herokuapp.com/consulta/sumar",
+					"protocol": "https",
+					"host": [
+						"semillero-1",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"consulta",
+						"sumar"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "sumar todos los modelos",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://semillero-1.herokuapp.com/consulta/sumar",
+							"protocol": "https",
+							"host": [
+								"semillero-1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"consulta",
+								"sumar"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "12"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"c-nKDd+FiPu20vyI5GPkCRkA6aFDQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 18 Apr 2022 03:51:54 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"suma\": 4\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "promediar todos los modelos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://semillero-1.herokuapp.com/consulta/promedio",
+					"protocol": "https",
+					"host": [
+						"semillero-1",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"consulta",
+						"promedio"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "promediar todos los modelos",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://semillero-1.herokuapp.com/consulta/promedio",
+							"protocol": "https",
+							"host": [
+								"semillero-1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"consulta",
+								"promedio"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "19"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"13-YRzD76Fd4OE+YtwM6P3t1LqYPnA\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 18 Apr 2022 03:54:21 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"promedio\": 4.25\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "saber cuántos registros están activos e inactivos ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://semillero-1.herokuapp.com/linea/registro",
+					"protocol": "https",
+					"host": [
+						"semillero-1",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"linea",
+						"registro"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "saber cuántos registros están activos e inactivos ",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://semillero-1.herokuapp.com/linea/registro",
+							"protocol": "https",
+							"host": [
+								"semillero-1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"linea",
+								"registro"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "41"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"29-mkS2mAG/0K5pXO5FH8xgayxrTWw\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 18 Apr 2022 04:01:44 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"COUNT(activo)\": 2\n    },\n    {\n        \"COUNT(activo)\": 1\n    }\n]"
+				}
+			]
+		}
+	]
+}
