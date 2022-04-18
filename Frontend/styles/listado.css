@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+body {
+  background-color: #141A07;
+}
+table thead {
+  background: #302b63;
+  color: white;
+}
+/*Universal aplica para todo*/
+a{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  appearance: none;
+  text-decoration: none;
+  list-style: none;
+  color:black;
+  text-align: center;
+}

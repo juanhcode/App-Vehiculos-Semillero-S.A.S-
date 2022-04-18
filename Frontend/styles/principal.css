@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
 body{
     background-color: #141A07;
 }
@@ -8,17 +9,50 @@ body{
     width:845px;
     height: 304px;
     border: 7px solid white;
-    display: flex;
 }
 h1{
     color:white;
-    font-size:90px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:70px;
+    font-family:poppins,sans-serif;
+    text-align: center;
 }
 .imagen{
-    padding:auto !important;
+    margin-left: 40%;
+    display: inline-block;
 }
 
 footer{
     background-color:white;
+}
+
+.botones{
+    width: 100vh;
+    margin:3% 90vh;
+}
+
+.botones button{
+    margin:10px;
+}
+.botones{
+    margin-left: 40%
+}
+
+.registrar{
+    padding: 17px;
+    background-color:rgb(226, 24, 24);
+    border-radius: 30px;
+}
+
+.listar{
+    padding: 17px;
+    background-color:rgb(226, 24, 24);
+    border-radius: 30px;
+}
+a{
+    color:white;
+    appearance: none;
+    text-decoration: none;
+    list-style: none;
+    font-family:poppins,sans-serif;
+    font-size: 18px;
 }
