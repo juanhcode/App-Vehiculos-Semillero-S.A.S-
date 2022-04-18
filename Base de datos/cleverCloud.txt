@@ -1,0 +1,5 @@
+HOST_DB=bkemxdamveo3evfeelny-mysql.services.clever-cloud.com
+USER_DB=unfg0vrokgihdapz
+DATABASE_NAME=bkemxdamveo3evfeelny
+PORT_DB=3306
+PASSWORD_DB=ToFztMQc7CIp39TmH2ql
