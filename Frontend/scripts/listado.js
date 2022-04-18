@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log(typeof fechaVencimientoSeguro);
             body += `<tr><td>${placa}</td><td>${modelo}</td><td>${asientos}</td><td>${fechaVencimientoSeguro.split('T')[0]}</td>
         <td>${fechaVencimientoTecnomecanica.split('T')[0]}</td><td>${idLinea}</td>
-        <td><button id="juan">Eliminar</button></td><td><a href="/Frontend/pages/editar.html" id="editar">Editar</a></td></tr>`
+        <td><button id="juan">Eliminar</button></td><td><a href="../pages/editar.html" id="editar">Editar</a></td></tr>`
         })
         document.getElementById('data').innerHTML = body
         const botonesEliminar = document.querySelectorAll('#juan');
